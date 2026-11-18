@@ -30,25 +30,36 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "@id": "https://ajaycarlos.is-a.dev/jotpay/#app",
-    "name": "JotPay",
-    "applicationCategory": "FinanceApplication",
-    "operatingSystem": "Android",
-    "description": "JotPay is an Android personal finance and expense-tracking application created by Ajay Pulikkal (@ajaycarlos).",
-    "url": "https://ajaycarlos.is-a.dev/jotpay/",
-    "downloadUrl": "https://play.google.com/store/apps/details?id=com.ajaydev.jotpay",
-    "author": {
-      "@type": "Person",
-      "@id": "https://ajaycarlos.is-a.dev/#ajay-pulikkal",
-      "name": "Ajay Pulikkal",
-      "url": "https://ajaycarlos.is-a.dev/about/",
-      "sameAs": [
-        "https://github.com/ajaycarlos",
-        "https://in.linkedin.com/in/ajaycarlos",
-        "https://x.com/ajaycarloss"
-      ]
-    }
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://ajaycarlos.is-a.dev/jotpay/#app",
+        "name": "JotPay",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Android",
+        "description": "JotPay is an Android personal finance and expense-tracking application created by Ajay Pulikkal (@ajaycarlos).",
+        "url": "https://ajaycarlos.is-a.dev/jotpay/",
+        "installUrl": "https://play.google.com/store/apps/details?id=com.ajaydev.jotpay",
+        "sameAs": "https://play.google.com/store/apps/details?id=com.ajaydev.jotpay",
+        "author": {
+          "@id": "https://ajaycarlos.is-a.dev/#ajay-pulikkal"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://ajaycarlos.is-a.dev/#ajay-pulikkal",
+        "name": "Ajay Pulikkal",
+        "alternateName": ["ajaycarlos", "Ajay Carlos"],
+        "url": "https://ajaycarlos.is-a.dev/about/",
+        "sameAs": [
+          "https://ajaycarlos.is-a.dev/",
+          "https://github.com/ajaycarlos",
+          "https://in.linkedin.com/in/ajaycarlos",
+          "https://x.com/ajaycarloss",
+          "https://play.google.com/store/apps/dev?id=5128876700320288190"
+        ]
+      }
+    ]
   }
   </script>
 </head>
