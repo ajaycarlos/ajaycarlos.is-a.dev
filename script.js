@@ -318,7 +318,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     await loadKnowledgeBits(); 
     showKnowledgeBit();
     startLiveClock();
-    startAnimations();
+    // INTRO VIDEO DISABLED: startAnimations(); // Original intro function is preserved above for future use.
     
     const knowledgeBox = document.getElementById("knowledge-box");
     if(knowledgeBox) knowledgeBox.addEventListener("click", () => {
